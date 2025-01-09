@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --theme: #20062e;
+  --blue: #18b2de;
+  --white: #fff;
+  --gray: #d7d7d7;
+  --purple-gray: #8f8297;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--theme);
+  color: var(--white);
+}
+
+nav a:hover {
+  color: var(--white);
+}
+
+input {
+  font-family: 'Inter', sans-serif;
+}
+
+.card {
+  background: linear-gradient(177.7deg, rgba(58, 129, 191, 0.3) 1.63%, rgba(65, 48, 90, 0.009) 148.18%);
+}
